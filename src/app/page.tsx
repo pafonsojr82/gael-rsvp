@@ -45,7 +45,7 @@ export default function Home() {
 
         <div
           style={{
-            marginTop: "18px",
+            marginTop: "12px",
             background: "white",
             borderRadius: "20px",
             padding: "18px",
@@ -57,10 +57,10 @@ export default function Home() {
 
             <div
               style={{
-                fontSize: "22px",
+                fontSize: "18px",
                 fontWeight: "bold",
                 color: "#0f62fe",
-                marginBottom: "20px",
+                marginBottom: "12px",
               }}
         >
               ⏳ Faltam {dias} dias para a festa!
@@ -73,7 +73,7 @@ export default function Home() {
               gap: "15px",
               justifyContent: "center",
               flexWrap: "nowrap",
-              marginTop: "30px",
+              marginTop: "12px",
             }}
           >
             <a
@@ -110,10 +110,10 @@ export default function Home() {
 
           <div
             style={{
-              marginTop: "25px",
+              marginTop: "12px",
               color: "#059669",
               fontWeight: "bold",
-              fontSize: "18px",
+              fontSize: "14px",
             }}
           >
             ✅ Confirme sua presença até 12/08/2026
