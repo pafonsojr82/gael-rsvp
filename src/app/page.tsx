@@ -102,7 +102,7 @@ export default function Home() {
                 fontWeight: "bold",
               }}
             >
-              📍 Ver no Google Maps
+              📍 Ver Google Maps
             </a>
 
 
