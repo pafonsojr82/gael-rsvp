@@ -29,7 +29,7 @@ export default function Home() {
         }}
       >
         <Image
-          src="/convite_sonic.jpeg"
+          src="/confirmacao_sonic.jpeg"
           alt="Aniversário do Gael"
           width={900}
           height={1400}
@@ -45,45 +45,50 @@ export default function Home() {
 
         <div
           style={{
-            marginTop: "20px",
+            marginTop: "18px",
             background: "white",
             borderRadius: "20px",
-            padding: "25px",
+            padding: "18px",
             textAlign: "center",
             boxShadow:
               "0 10px 30px rgba(0,0,0,0.15)",
           }}
         >
-          <h2>⏳ Contagem Regressiva</h2>
 
-          <div
-            style={{
-              fontSize: "48px",
-              fontWeight: "bold",
-              color: "#0f62fe",
-            }}
-          >
-            {dias}
-          </div>
+            <div
+              style={{
+                fontSize: "22px",
+                fontWeight: "bold",
+                color: "#0f62fe",
+                marginBottom: "20px",
+              }}
+        >
+              ⏳ Faltam {dias} dias para a festa!
+            </div>
 
-          <div
-            style={{
-              fontSize: "20px",
-              color: "#555",
-            }}
-          >
-            dias para a festa!
-          </div>
 
           <div
             style={{
               display: "flex",
               gap: "15px",
               justifyContent: "center",
-              flexWrap: "wrap",
+              flexWrap: "nowrap",
               marginTop: "30px",
             }}
           >
+            <a
+              href="/rsvp"
+              style={{
+                background: "#0f62fe",
+                color: "white",
+                textDecoration: "none",
+                padding: "15px 25px",
+                borderRadius: "12px",
+                fontWeight: "bold",
+              }}
+            >
+              ✍️ Confirmar Presença
+            </a>
             <a
               href="https://maps.google.com/?q=Rua+do+Acre+229+Mooca+Sao+Paulo+SP"
               target="_blank"
@@ -100,19 +105,7 @@ export default function Home() {
               📍 Ver no Google Maps
             </a>
 
-            <a
-              href="/rsvp"
-              style={{
-                background: "#0f62fe",
-                color: "white",
-                textDecoration: "none",
-                padding: "15px 25px",
-                borderRadius: "12px",
-                fontWeight: "bold",
-              }}
-            >
-              ✍️ Confirmar Presença
-            </a>
+
           </div>
 
           <div
