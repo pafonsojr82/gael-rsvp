@@ -344,9 +344,8 @@ export default function RSVP() {
         </h3>
 
         <h3>Crianças de 0 a 6 anos</h3>
-        <input
-          type="number"
-          min="0"
+
+        <select
           value={qtde06}
           onChange={(e) =>
             setQtde06(Number(e.target.value))
@@ -357,12 +356,17 @@ export default function RSVP() {
             border: "1px solid #ccc",
             borderRadius: "8px",
           }}
-        />
+        >
+          {[0,1,2,3,4,5,6,7,8,9].map((n) => (
+            <option key={n} value={n}>
+              {n}
+            </option>
+          ))}
+        </select>
 
         <h3>Crianças de 7 a 12 anos</h3>
-        <input
-          type="number"
-          min="0"
+
+        <select
           value={qtde712}
           onChange={(e) =>
             setQtde712(Number(e.target.value))
@@ -373,12 +377,17 @@ export default function RSVP() {
             border: "1px solid #ccc",
             borderRadius: "8px",
           }}
-        />
+        >
+          {[0,1,2,3,4,5,6,7,8,9].map((n) => (
+            <option key={n} value={n}>
+              {n}
+            </option>
+          ))}
+        </select>
 
         <h3>Pessoas com 13 anos ou mais</h3>
-        <input
-          type="number"
-          min="0"
+
+        <select
           value={qtde13}
           onChange={(e) =>
             setQtde13(Number(e.target.value))
@@ -389,7 +398,13 @@ export default function RSVP() {
             border: "1px solid #ccc",
             borderRadius: "8px",
           }}
-        />
+        >
+          {[0,1,2,3,4,5,6,7,8,9].map((n) => (
+            <option key={n} value={n}>
+              {n}
+            </option>
+          ))}
+        </select>
 
         <div
           style={{
