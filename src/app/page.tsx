@@ -70,21 +70,25 @@ export default function Home() {
           <div
             style={{
               display: "flex",
-              gap: "15px",
-              justifyContent: "center",
-              flexWrap: "nowrap",
-              marginTop: "12px",
+              flexDirection: "column",
+              gap: "10px",
+              marginTop: "16px",
             }}
           >
             <a
               href="/rsvp"
               style={{
+                display: "block",
+                width: "100%",
+                boxSizing: "border-box",
                 background: "#0f62fe",
                 color: "white",
                 textDecoration: "none",
-                padding: "15px 25px",
+                padding: "14px",
                 borderRadius: "12px",
                 fontWeight: "bold",
+                fontSize: "18px",
+                textAlign: "center",
               }}
             >
               ✍️ Confirmar Presença
@@ -102,7 +106,7 @@ export default function Home() {
                 fontWeight: "bold",
               }}
             >
-              📍 Google Maps
+              📍 Ver no Google Maps
             </a>
 
 
