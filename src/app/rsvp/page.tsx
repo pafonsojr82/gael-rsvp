@@ -339,8 +339,9 @@ export default function RSVP() {
 
         <h3 style={{ marginTop: "30px" }}>
           👥 Para nos ajudar na organização da
-          festa, informe a quantidade de
+          festa, informe a <strong>quantidade</strong> de
           participantes por faixa etária:
+          
         </h3>
 
         <h3>Crianças de 0 a 6 anos</h3>
@@ -417,7 +418,7 @@ export default function RSVP() {
           }}
         >
           ℹ️ Considere todas as pessoas que
-          comparecerão à festa, incluindo adultos.
+          comparecerão à festa, incluindo você.
         </div>
 
         <h3 style={{ marginTop: "25px" }}>
