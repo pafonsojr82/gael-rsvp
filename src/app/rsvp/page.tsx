@@ -341,10 +341,12 @@ export default function RSVP() {
           👥 Para nos ajudar na organização da
           festa, informe a <strong>quantidade</strong> de
           participantes por faixa etária:
-          
+
         </h3>
 
-        <h3>Crianças de 0 a 6 anos</h3>
+        <h3 style={{ marginTop: "20px" }}></h3>
+          Crianças de 0 a 6 anos
+        </h3>
 
         <select
           value={qtde06}
