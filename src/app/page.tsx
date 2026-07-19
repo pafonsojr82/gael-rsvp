@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+export const revalidate = 3600;
+
 export default function Home() {
   const dataFesta = new Date("2026-08-22T13:00:00");
 
